@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+        font-family: 'roboto',sans-serif;
+        background-color: #f1f3f6;
+}
+:root{
+    --primary-color:black;
+}
+.container{
+    padding: 0 8px;
+}
+header{
+background-color: var(--primary-color);
+height:85px;
+}
+header .navc{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: black;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+header .navc .logo{
+    display: flex;
+    min-width: 140px;
+    justify-content: flex-end;
+}
+header .navc .logo img{
+    width: 180px;
+    height: 75px;
+}
+header .search{
+    height: 100%;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    margin-left: 20px;
+}
+header .search .searchc{
+    width: 500px;
+    height: 35px;
+    margin: 0 40px;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
+    display: flex;
+}
+header .search .searchc input{
+    width: calc(100% - 32px);
+    padding: 16px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+}
+header .search .searchc button{
+    width: 50px;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+header .login{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+   
+}
+header .login button{
+    width: 110px;
+    padding: 4px 2px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 2px;
+    color: black;
+}
+header .sell{
+    height: 100%;
+    color: white;
+    font-weight: 400;
+    display:flex;
+    margin: 20px;
+    font-size: 16px;
+    align-items:center;
+    
+}
+header .more{
+    height: 100%;
+    color: white;
+    font-weight: 400;
+    display:flex;
+    font-size: 16px;
+    align-items: center;
+}
+header .more svg{
+rotate: -90deg;
+}
+header .cart{
+    height: 100%;
+    color: white;
+    font-weight: 500;
+    display:flex;
+    font-size: 16px;
+    margin-left: 20px;
+    align-items: center;
+}
+header .cart svg{
+    margin-right: 5px;
+
+}
+.sectionf{
+    margin-top: 8px;
+    height: 300px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer{
+    width: 230px;
+    height: 100%;
+
+background-position: bottom;
+background-repeat: no-repeat;
+}
+.all{
+    margin-top: 130px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.all button{
+    background-color:var(--primary-color) ;
+    margin-top: 25px;
+    color: white;
+    height: 40px;
+    box-shadow: 0 2PX 4PX 0 rgb(0 0 0 / 20%);
+    padding:  10px 20px;
+    font-size:12px;
+border: none;
+font-weight: 500;
+border-radius: 2px;
+cursor: pointer;
+}
+.it{
+    height: 100%;
+    width: calc(100% - 230px);
+    display: flex;
+    overflow-x: auto;
+}
+.item{
+    width: 230px;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.ithead{
+    margin-top: 16px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.itp{
+    margin-top: 12px;
+    font-size: 16px;
+    color: #6D0606;
+}
+footer{
+
+    margin-top: 15px;
+}
+.foot2{
+    background-color:black;
+    color: white;
+    height: 180px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin: 4px;
+    font-size: 13px;
+    color: #dddddd;
+    font-weight: 400;
+}
+ul p{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+   margin: 16px 6px;
+}
